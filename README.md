@@ -34,11 +34,11 @@ HFUT 2022spring Digital Image Processing and Application
 
 ### 3.4.1 线性平滑滤波器
 
-- 领域平均
+- 领域平均滤波器
 
   ![image-20220526151130872](images/image-20220526151130872.png)
 
-- 加权平均
+- 加权平均滤波器
 
   ![image-20220526151144263](images/image-20220526151144263.png)
 
@@ -47,6 +47,16 @@ HFUT 2022spring Digital Image Processing and Application
 ## 3.5 非线性滤波
 
 ### 3.5.1 非线性平滑滤波器
+
+- 作用既消除噪声又保持细节
+
+- 中值滤波器
+
+  - 1D中值滤波器（width=3）
+
+    ![image-20220528141437110](images/image-20220528141437110.png)
+
+    
 
 
 

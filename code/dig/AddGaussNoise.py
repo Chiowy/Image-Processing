@@ -24,7 +24,7 @@ def add_gaussian_noise(image, mean=0, var=0.001):
 
 
 if __name__ == '__main__':
-    img = cv2.imread('E:\\CODE\\Image-Processing\\images\\Anastasia.jpg')
+    img = cv2.imread('/code/dig/Anastasia.jpg')
     img_after_added_noise = add_gaussian_noise(img)
     cv2.imshow('noise', img_after_added_noise)
     cv2.waitKey(0)

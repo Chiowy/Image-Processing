@@ -1,6 +1,5 @@
-import cv2
 import numpy as np
-from dig import myfunc
+from code.dig import myfunc
 
 # 用sobel算子和拉普拉斯算子处理以下矩阵
 matrix = np.array(

@@ -106,9 +106,16 @@ HFUT 2022spring Digital Image Processing and Application
 
 - Roberts算子
 
+  - 一阶算子
+
 - Prewitt算子
 
+  - 一阶算子
+  - 模板![image-20220530153016434](images/image-20220530153016434.png)
+
 - Sobel算子
+
+  - 一阶算子
 
   - 公式
 
@@ -135,3 +142,8 @@ HFUT 2022spring Digital Image Processing and Application
     ![image-20220529142856433](images/image-20220529142856433.png)
 
     >    由于梯度算子和Laplace算子都对噪声敏感，因此一般在用它们检测边缘前要先对图像进行平滑。 
+
+## 4.3基于区域的分割方法
+
+
+

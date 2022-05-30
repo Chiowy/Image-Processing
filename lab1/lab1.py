@@ -1,11 +1,11 @@
 import cv2
 import numpy as np
 
-from dig import AddSaltNoise
-from dig import AddGaussNoise
+from code.dig import AddSaltNoise
+from code.dig import AddGaussNoise
 
 """part a 调入并显示原始图像"""
-img = cv2.imread('E:\CODE\Image-Processing\images\Anastasia.jpg')  # 调入原始图像
+img = cv2.imread('Anastasia.jpg')  # 调入原始图像
 cv2.imshow('img', img)
 cv2.waitKey(0)
 
